@@ -28,8 +28,6 @@ public class DrinkDriving {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		
-		
-
 	}
 
 	    @After
@@ -179,6 +177,7 @@ public class DrinkDriving {
 	 		counter++;
 	 		Thread.sleep(1000);
 	 		}
+	 		
 	    	 }
 	       
 	    		 @Test
